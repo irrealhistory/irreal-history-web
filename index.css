@@ -1,0 +1,45 @@
+/*Global*/
+body {
+    background: linear-gradient(45deg, #ccffff, #ffcccc);
+    line-height: 200%;
+    margin: 5%;
+}
+
+/*Headings*/
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: "Bitter", serif;
+}
+
+/*Paragraphs*/
+p, ol, blockquote {
+    text-indent: 10%;
+    font-family: "Roboto", sans-serif;
+    margin: 0% 10% 0% 10%;
+}
+
+/*Smart Quotations*/
+q {
+    quotes: "“" "”";
+}
+q::before{
+    content: open-quote;
+}
+q::after{
+    content: close-quote;
+}
+blockquote {
+    quotes: "“" "”";
+}
+blockquote::before {
+    content: open-quote;
+}
+blockquote::after {
+    content: close-quote;
+}
+
+/* Superscript reference */
+.fnref {
+   vertical-align: super;
+   font-size: 0.75em;
+}
